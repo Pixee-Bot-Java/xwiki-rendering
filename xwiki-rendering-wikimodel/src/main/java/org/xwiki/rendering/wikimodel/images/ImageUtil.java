@@ -49,6 +49,9 @@ public class ImageUtil
      * @return a new re-sized image or the original image if it was in the
      *         specified boundaries
      */
+    private ImageUtil() {
+    }
+    
     private static BufferedImage createThumb(
         BufferedImage image,
         int thumbWidth,

@@ -33,6 +33,9 @@ public class WikiPageUtil
     /**
      * Reserved symbols - see RFC 2396 (http://www.ietf.org/rfc/rfc2396.txt)
      */
+    private WikiPageUtil() {
+    }
+    
     private static final char[] HTTP_RESERVED_SYMBOLS = {
         ';',
         '/',

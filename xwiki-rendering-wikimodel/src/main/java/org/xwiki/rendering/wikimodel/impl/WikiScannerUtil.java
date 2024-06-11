@@ -34,6 +34,9 @@ public class WikiScannerUtil
     /**
      * The default character to use has escaping char.
      */
+    private WikiScannerUtil() {
+    }
+    
     private static final char DEFAULT_ESCAPECHAR = '\u005c\u005c';
 
     /**
